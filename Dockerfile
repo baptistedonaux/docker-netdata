@@ -37,5 +37,5 @@ VOLUME /etc/netdata /usr/libexec/netdata/plugins.d /usr/share/netdata/web /var/c
 
 COPY entrypoint.sh /
 ENTRYPOINT ["/entrypoint.sh"] 
-CMD ["netdata", "-nodeamon"]
+CMD ["netdata", "-nd"]
 
