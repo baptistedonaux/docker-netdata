@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`latest`, `1.0.0`, `1.0`, `1` (*Dockerfile*)](https://github.com/baptistedonaux/docker-netdata/blob/70907e8130b6e65f06c5174645dd3457cf542131/Dockerfile)
+-	[`latest`, `1.1.0`, `1.1`, `1` (*Dockerfile*)](https://github.com/baptistedonaux/docker-netdata/blob/272dd9420e4856793ec578758d8efc1110fd5cd6/Dockerfile)
 
 # How to use this image
 
@@ -14,7 +14,7 @@ This image is licensed under the MIT License (see [LICENSE](https://github.com/b
 
 # Supported Docker versions
 
-This image supported on Docker version 1.10.0.
+This image supported on Docker version 1.11.0.
 
 # User Feedback
 
