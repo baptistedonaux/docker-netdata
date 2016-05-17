@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`latest`, `1.1.0`, `1.1`, `1` (*Dockerfile*)](https://github.com/baptistedonaux/docker-netdata/blob/272dd9420e4856793ec578758d8efc1110fd5cd6/Dockerfile)
+-	[`latest`, `1.2.0`, `1.2`, `1` (*Dockerfile*)](https://github.com/baptistedonaux/docker-netdata/blob/8fe55beed88cf5e5b30887ce3d715351917e9234/Dockerfile)
 
 # How to use this image
 
