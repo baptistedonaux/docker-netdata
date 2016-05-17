@@ -1,6 +1,6 @@
 FROM debian:8
 
-ENV NETDATA_VERSION v1.1.0
+ENV NETDATA_VERSION v1.2.0
 
 RUN apt-get update \
     && apt-get install -y \
@@ -9,8 +9,10 @@ RUN apt-get update \
         automake \
         gcc \
         git \
+        libmnl-dev \
         make \
         pkg-config \
+        uuid-dev \
         zlib1g-dev \
     && git clone https://github.com/firehol/netdata.git --branch $NETDATA_VERSION --depth=1 \
     && cd netdata \
