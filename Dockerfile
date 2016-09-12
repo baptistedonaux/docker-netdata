@@ -1,6 +1,6 @@
 FROM debian:8
 
-ENV NETDATA_VERSION v1.2.0
+ENV NETDATA_VERSION v1.3.0
 
 RUN apt-get update \
     && apt-get install -y \
